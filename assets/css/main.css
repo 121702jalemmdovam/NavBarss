@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: whitesmoke;
+}
+header nav {
+  width: 70%;
+  margin: auto;
+  background-color: whitesmoke;
+}
+header nav .itemLogo {
+  color: black;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  font-size: 15px;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+  padding: 10px;
+}
+header nav .collapseDiv .navItem {
+  color: black;
+  font-size: 13px;
+  font-weight: 500px;
+  transition: 1.5s;
+  padding: 10px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+header nav .collapseDiv .navItem:hover {
+  color: #BC5148;
+}
+header nav button i {
+  font-size: 20px;
+}
